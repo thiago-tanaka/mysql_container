@@ -18,4 +18,5 @@ volumes:
   db-data: ~
 networks:
   mysql_network:
+    name: mysql-container_mysql_network
     driver: bridge
